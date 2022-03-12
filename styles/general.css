@@ -72,7 +72,7 @@ body {
   align-items: center;
   /* background-color: rgba(0, 0, 0, 0.247); */
   /* border-bottom: 2px solid #000; */
-  background-color: #3f474a;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.9));
 
   height: 6rem;
   padding: 0 4.8rem 0 0;
@@ -164,4 +164,48 @@ body {
   /* background-color: rgba(255, 255, 255, 0); */
   z-index: 99999;
   box-shadow: none;
+}
+
+/****************************************/
+/* HERO SECTION */
+/****************************************/
+
+.section-hero {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 9.8rem 0;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.9)),
+    url(../images/dining.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* animation: mymove 9s infinite; */
+}
+
+.hero-image {
+  height: 100vh;
+}
+
+/* @keyframes mymove {
+  50% {
+    background-position: center;
+  }
+} */
+
+.hero {
+  max-width: 130rem;
+  margin: 9.6rem auto;
+  padding: 8rem 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  row-gap: 9.6rem;
+  column-gap: 9.6rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  color: #d8d4d4;
 }
