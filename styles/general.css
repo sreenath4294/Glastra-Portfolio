@@ -59,7 +59,7 @@ body {
   font-family: "Lora", serif;
   font-weight: 400;
   line-height: 1;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /****************************************/
@@ -239,4 +239,94 @@ body {
 .hero-link:hover,
 .hero-link:active {
   color: #999;
+}
+
+/****************************************/
+/* SECTION HOW IT WORKS*/
+/****************************************/
+
+.how-it-works {
+  padding: 8rem 0;
+  padding-bottom: 4.8rem;
+}
+
+.how-it-works-container {
+  max-width: 100rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.how-it-works-heading {
+  font-size: 3.6rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.how-it-works-cards {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #999;
+
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 1fr;
+  column-gap: 7rem;
+  row-gap: 3rem;
+}
+
+.how-it-works-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.card-two {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.card-three {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.card-four {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.card-five {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.card-six {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.hiw-icon {
+  height: 5rem;
+  width: 5rem;
+  color: #999;
+}
+
+.hiw-description {
+  text-align: center;
 }
