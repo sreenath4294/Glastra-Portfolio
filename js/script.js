@@ -16,7 +16,7 @@ const observer = new IntersectionObserver(
     const navBYDEl = document.querySelector(".link-byd");
     // below hero
     if (!ent.isIntersecting) {
-      headerEl.style.height = "6rem";
+      headerEl.style.height = "7rem";
       headerEl.style.backgroundColor = "#000";
       headerEl.style.boxShadow = "0 1.2rem 3.2rem rgba(0, 0, 0, 0.3)";
       logoEl.style.display = "none";

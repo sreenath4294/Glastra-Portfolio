@@ -93,7 +93,7 @@ body {
 .logo-sticky {
   /* padding: 3.6rem 15rem; */
   padding: 0 3.6rem;
-  height: 6rem;
+  height: 7rem;
   background-color: #000;
 }
 
@@ -117,7 +117,7 @@ body {
   text-decoration: none;
   color: #f1f1f1;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .main-nav-link:hover,
@@ -253,8 +253,12 @@ body {
 /****************************************/
 
 .how-it-works {
+  /* width: 100rem; */
+  padding: 0 3.2rem;
+  margin: 0 auto;
   padding: 8rem 0;
   padding-bottom: 4.8rem;
+  background-color: #f5f5f5;
 }
 
 .how-it-works-container {
@@ -277,7 +281,7 @@ body {
 .how-it-works-cards {
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #999;
+  color: #666;
 
   display: grid;
   grid-template-columns: 1fr 0.1fr 1fr;
@@ -336,4 +340,54 @@ body {
 
 .hiw-description {
   text-align: center;
+}
+
+/****************************************/
+/* SECTION ABOUT US*/
+/****************************************/
+
+.about-us {
+  /* width: 120rem; */
+  /* padding: 8rem 0;
+  padding-bottom: 4.8rem; */
+  background-color: #000;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-contents {
+  padding: 8rem 0;
+  padding-bottom: 4.8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.about-us-content {
+  padding: 0 16rem;
+}
+
+.content-heading {
+  color: #f1f1f1;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.content-description {
+  color: #999;
+  line-height: 3rem;
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.about-us-image {
+  height: 60rem;
+  /* width: 60rem; */
 }
