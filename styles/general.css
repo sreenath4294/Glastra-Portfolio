@@ -391,3 +391,97 @@ body {
   height: 60rem;
   /* width: 60rem; */
 }
+
+/****************************************/
+/* SECTION GALLERY*/
+/****************************************/
+
+.gallery {
+  width: 120rem;
+  padding: 8rem 0;
+  padding-bottom: 4.8rem;
+}
+
+.gallery-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+.gallery-heading {
+  font-size: 3.6rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.gallery-cards {
+  /* width: 100vw; */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.gallery-card {
+  /* height: 100rem; */
+  width: 12.5rem;
+}
+
+.g-card-one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  width: 29.8rem;
+}
+
+.g-card-two {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 29rem;
+}
+
+.g-card-three {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  width: 44.3rem;
+}
+
+.g-card-four {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 9;
+  width: 29rem;
+}
+
+.g-card-five {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+  width: 29.8rem;
+}
+
+.g-card-six {
+  grid-column-start: 3;
+  grid-column-end: 8;
+  grid-row-start: 9;
+  grid-row-end: 12;
+  width: 76.3rem;
+}
+
+.g-card-seven {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 12;
+  width: 29.8rem;
+}
