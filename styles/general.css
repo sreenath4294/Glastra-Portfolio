@@ -257,7 +257,6 @@ body {
   padding: 0 3.2rem;
   margin: 0 auto;
   padding: 8rem 0;
-  padding-bottom: 4.8rem;
   background-color: #f5f5f5;
 }
 
@@ -474,7 +473,7 @@ body {
   grid-column-start: 3;
   grid-column-end: 8;
   grid-row-start: 9;
-  grid-row-end: 12;
+  grid-row-end: 15;
   width: 76.3rem;
 }
 
@@ -482,6 +481,15 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 9;
-  grid-row-end: 12;
+  grid-row-end: 11;
   width: 29.8rem;
+}
+
+.g-card-eight {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 11;
+  grid-row-end: 15;
+  width: 29.8rem;
+  background-color: #000;
 }
