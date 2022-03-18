@@ -56,7 +56,7 @@ html {
 }
 
 body {
-  font-family: "Lora", serif;
+  font-family: "Saira Semi Condensed", sans-serif;
   font-weight: 400;
   line-height: 1;
   overflow-x: clip;
@@ -102,7 +102,7 @@ body {
 /****************************************/
 
 .main-nav {
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 
 .main-nav-list {
@@ -117,7 +117,7 @@ body {
   text-decoration: none;
   color: #f1f1f1;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .main-nav-link:hover,
@@ -167,7 +167,7 @@ body {
 .section-hero {
   height: 100vh;
   margin: 0 auto;
-  padding: 9.8rem 0;
+  padding: 12.8rem 0;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.8)),
     url(../images/dining.jpg);
@@ -193,7 +193,7 @@ body {
 
 .hero {
   max-width: 130rem;
-  margin: 9.6rem auto;
+  margin: 9.8rem auto;
   padding: 8rem 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -203,7 +203,7 @@ body {
 }
 
 .hero-description {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
   color: #d8d4d4;
@@ -239,7 +239,7 @@ body {
 .hero-link:visited {
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #f1f1f1;
 }
 
@@ -278,8 +278,8 @@ body {
 }
 
 .how-it-works-cards {
-  font-size: 1.6rem;
-  line-height: 2rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
   color: #666;
 
   display: grid;
@@ -374,7 +374,7 @@ body {
 
 .content-heading {
   color: #f1f1f1;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -382,7 +382,7 @@ body {
   color: #999;
   line-height: 3rem;
   padding-top: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
@@ -493,3 +493,109 @@ body {
   width: 29.8rem;
   background-color: #000;
 }
+
+/****************************************/
+/* CONTACT US SECTION */
+/****************************************/
+
+.section-contact-us {
+  padding: 8rem 0;
+  background-color: #000;
+}
+
+.contact-us {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #000; */
+  /* box-shadow: 0 2.4rem 4.8rem rgba(255, 255, 255, 0.2); */
+  border-radius: 11px;
+  overflow: hidden;
+
+  /* background-image: linear-gradient(to right, #f25151, #d83838); */
+}
+
+/* .contact-us-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(240, 62, 62, 0.164),
+      rgba(216, 56, 56, 0.199)
+    ),
+    url(../images/contactus.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+
+.contact-us-text {
+  padding: 3rem 6.4rem 1.2rem 6.4rem;
+}
+
+.countact-us-heading {
+  margin-bottom: 1.4rem;
+  color: #f1f1f1;
+}
+
+/* .countact-us-sub-heading {
+    font-size: 2.8rem;
+    color: #300c0c;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+  } */
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 6.4rem 3rem 6.4rem;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-element label {
+  display: block;
+  font-size: 1.6rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.form-element input {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #fff;
+  border: solid 2px #f1f1f1;
+  background-color: #000;
+  border-radius: 9px;
+}
+
+.form-element textarea {
+  border: none;
+  color: #f1f1f1;
+  border: solid 2px #f1f1f1;
+  background-color: #000;
+  border-radius: 9px;
+  padding: 1rem;
+}
+
+.form-btn {
+  background-color: #000;
+  color: #f1f1f1;
+  align-self: flex-start;
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  border: solid 3px #f1f1f1;
+  border-radius: 9px;
+}
+
+.form-btn:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* .contact-us *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgb(226, 124, 124, 0.5);
+} */
